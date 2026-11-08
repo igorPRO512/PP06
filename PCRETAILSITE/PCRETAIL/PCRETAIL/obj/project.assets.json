@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.50.0": {
@@ -3396,11 +3396,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\Работа\\ПМ 05 Вавилина\\#курсовой\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "projectUniqueName": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
       "projectName": "PCRETAIL",
-      "projectPath": "H:\\Работа\\ПМ 05 Вавилина\\#курсовой\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "projectPath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
       "packagesPath": "C:\\Users\\nu\\.nuget\\packages\\",
-      "outputPath": "H:\\Работа\\ПМ 05 Вавилина\\#курсовой\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\obj\\",
+      "outputPath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3419,6 +3419,7 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -3433,10 +3434,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Negotiate": {
@@ -3477,8 +3479,40 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-2p3q-h3hg-jcqq (уровень серьезности: высокий уровень)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-8prm-248r-h957 (уровень серьезности: высокий уровень)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-vrrp-6v32-2p8g (уровень серьезности: высокий уровень)",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

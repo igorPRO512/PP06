@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0zSqbzpH/6Q=",
+  "dgSpecHash": "HCYz7wA7PQw=",
   "success": true,
-  "projectFilePath": "H:\\Работа\\ПМ 05 Вавилина\\#курсовой\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+  "projectFilePath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nu\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\nu\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
@@ -70,5 +70,42 @@
     "C:\\Users\\nu\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\nu\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-2p3q-h3hg-jcqq (уровень серьезности: высокий уровень)",
+      "projectPath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-8prm-248r-h957 (уровень серьезности: высокий уровень)",
+      "projectPath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "У пакета \"Microsoft.AspNetCore.Authentication.Negotiate\" 8.0.20 есть известная уязвимость https://github.com/advisories/GHSA-vrrp-6v32-2p8g (уровень серьезности: высокий уровень)",
+      "projectPath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "warningLevel": 1,
+      "filePath": "F:\\PROJECTS\\GIT\\PP06\\PCRETAILSITE\\PCRETAIL\\PCRETAIL\\PCRETAIL.csproj",
+      "libraryId": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
