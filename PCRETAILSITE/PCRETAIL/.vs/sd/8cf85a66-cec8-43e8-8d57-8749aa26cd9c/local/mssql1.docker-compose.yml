@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  :
+    image: ""
+    hostname: ""
+    restart: always
+    ports: 
+
+    environment:
+      - ACCEPT_EULA="Y"
+      - SA_PASSWORD=18d54c5e-6af1-45e2-b5f8-c7c72fd2649f
