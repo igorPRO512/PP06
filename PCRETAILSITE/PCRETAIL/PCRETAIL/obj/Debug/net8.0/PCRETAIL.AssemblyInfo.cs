@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCRETAIL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57070051d31744b74e1a359e3053868a17109aaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eefe89a2a072bea4896df59a4969058b48bb5e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCRETAIL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCRETAIL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
